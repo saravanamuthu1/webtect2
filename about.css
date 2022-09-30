@@ -1,0 +1,146 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Georgia, serif;
+  }
+  .navbar{
+    scroll-behavior:auto;
+  }
+  body{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  .logo{
+    padding:30px;
+    color:#dbf5ff;
+    float:left;
+  }
+
+  h1,h2{
+    color:#dbf5ff;
+  }
+  .navbar-nav>a{
+    color:#dbf5ff;
+  }
+  ul{
+    float:left;
+    display:flex;
+    flex:wrap;
+  }
+  nav ul li{
+    list-style:none;
+    padding:20px;
+    padding-top:30px;
+    color:#dbf5ff;
+  }
+  nav ul li a{
+    text-decoration:none;
+    padding:20px;
+    padding-top:30px;
+    margin:30px;
+    margin-top:30px;
+    color:#dbf5ff;
+   }
+
+.nav-item{
+    list-style:none;
+    padding:20px;
+    padding-top:30px;
+    color:#dbf5ff;
+}
+.nav-link{
+    text-decoration:none;
+    padding:20px;
+    padding-top:30px;
+    margin:30px;
+    margin-top:30px;
+    color:#dbf5ff;
+}
+  
+  p{
+    color:#dbf5ff;
+  }
+  .head{
+    padding:40px;
+    font-size:30px;
+    color:#dbf5ff;
+   
+  }
+  .content_class{
+    display:flex;
+    
+  }
+  .head .par{
+    font-size:20px;
+  }
+  .but1{
+    border-style:solid;
+    border-width:5px;
+    align-content:center;
+    align-items:center;
+    background-color:#2abcd3;
+    cursor:pointer;
+    display:block;
+    color:#dbf5ff;
+    border-radius:25px;
+  }
+  .but1:hover{
+    color:#000000;
+    outline-style:solid;
+    outline-color:#000000;
+    background:transparent;
+    border-radius:25px;
+  }
+  .login_content{
+      height:300px;
+  
+    position:absolute;
+      top:150px;
+      left: 880px;
+      transform: translate(0%,-5%);
+      border-radius: 3px;
+      padding: 25px;
+   }
+  .login_content h2{
+    font-size:30px;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    }
+  .login_input{
+    align-content:center;
+    border-style:solid;
+  }
+  .login_input input{
+    padding:20px;
+    height:20px;
+    margin:10px;
+    padding-left:100px;
+    border-style:solid;
+    border-radius:10px;
+   }
+  .login_input a{
+    text-decoration:none;
+    color:#c5dadf;
+   }
+  .login_input a:hover{
+    color:#000000;
+  }
+  .login_input #but2{
+    margin:10px;
+    padding:20px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+ 
